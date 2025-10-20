@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de Teclados</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d1117;
+      color: #e6edf3;
+    }
+
+    header {
+      background: linear-gradient(90deg, #00ffc3, #007bff);
+      padding: 20px;
+      text-align: center;
+      color: #0d1117;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    section {
+      padding: 40px 10%;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #00ffc3;
+      border-left: 4px solid #00ffc3;
+      padding-left: 10px;
+    }
+
+    h3 {
+      color: #00b7ff;
+      margin-top: 15px;
+    }
+
+    p {
+      line-height: 1.7;
+      font-size: 1.05rem;
+      color: #c9d1d9;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 25px;
+    }
+
+    .card {
+      background-color: #161b22;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,255,195,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px rgba(0,255,195,0.4);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 160px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #0b0f14;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    .switch {
+      color: #ffcc00;
+      font-weight: bold;
+    }
+
+    .keyboard-type {
+      color: #00ffc3;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 1.5rem;
+      }
+      section {
+        padding: 30px 5%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    TECLADOS DE COMPUTADORA 💻
+  </header>
+
+  <section>
+    <h2>Introducción</h2>
+    <p>
+      Los teclados son uno de los periféricos más importantes de una computadora. Existen diversos tipos diseñados para diferentes necesidades, desde la escritura cotidiana hasta el gaming profesional.
+    </p>
+  </section>
+
+  <section>
+    <h2>Tipos de teclados</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="imgs/L7IQJ64HIVCBFCQMKT7VNYWHPY.jpg" alt="Teclado de membrana">
+        <p>Propiedad de "Infobae"</p>
+        <h3>Teclado de Membrana</h3>
+        <p>Utiliza una capa de goma debajo de las teclas. Son económicos y silenciosos, pero ofrecen menor respuesta táctil y durabilidad.</p>
+      </div>
+      <div class="card">
+        <img src="imgs/450_1000.jpg" alt="Teclado mecánico">
+        <p>Propiedad de "Xataka"</p>
+        <h3>Teclado Mecánico</h3>
+        <p>Cada tecla tiene un interruptor independiente que ofrece una sensación táctil precisa y una gran durabilidad. Son ideales para programadores y gamers.</p>
+      </div>
+      <div class="card">
+        <img src="imgs/61rAz8k+S1L._UF894,1000_QL80_.jpg" alt="Teclado ergonómico">
+        <h3>Teclado Ergonómico</h3>
+        <p>Propiedad de "Zegucom"</p>
+        <p>Diseñado para reducir la tensión en las muñecas y manos. Suelen tener formas curvas o divididas.</p>
+      </div>
+      <div class="card">
+        <img src="imgs/71g3CMKoHML._UF1000,1000_QL80_.jpg" alt="Teclado inalámbrico">
+        <h3>Teclado Inalámbrico</h3>
+        <p>Propiedad de "DDtech"</p>
+        <p>Funciona mediante Bluetooth o un receptor USB. Ofrece libertad de movimiento, aunque puede tener un ligero retraso en la señal.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Teclados Mecánicos</h2>
+    <p>Los teclados mecánicos destacan por su precisión y respuesta. Se pueden personalizar con diferentes tipos de <span class="switch">switches</span> y formatos.</p>
+
+    <h3>Tipos de switches</h3>
+    <div class="card-container">
+      <div class="card">
+        <img src="imgs/images.jpg" alt="Switch rojo">
+        <p>Propiedad de "Cherry"</p>
+        <h3 class="switch">Switch Rojo (Red)</h3>
+        <p>Lineal y suave. No tiene clic audible y requiere poca fuerza para presionarse. Ideal para videojuegos.</p>
+      </div>
+      <div class="card">
+        <img src="imgs/61R5H2jjzoL.jpg" alt="Switch azul">
+        <p>Propiedad de " Amazon"</p>
+        <h3 class="switch">Switch Azul (Blue)</h3>
+        <p>Táctil y con clic audible. Perfecto para quienes disfrutan de una sensación de respuesta al escribir.</p>
+      </div>
+      <div class="card">
+        <img src="imgs/61mDI7c9W4L.jpg" alt="Switch marrón">
+        <p>Propiedad de "Amazon"</p>
+        <h3 class="switch">Switch Marrón (Brown)</h3>
+        <p>Táctil pero silencioso. Una combinación equilibrada entre escritura y gaming.</p>
+      </div>
+      <div class="card">
+        <img src="imgs/71165OA0CrL.jpg" alt="Switch negro">
+        <p>Propiedad de "Amazon"</p>
+        <h3 class="switch">Switch Negro (Black)</h3>
+        <p>Lineal y con más resistencia. Favorece la precisión y evita pulsaciones accidentales.</p>
+      </div>
+    </div>
+
+    <h3>Formatos de teclado</h3>
+    <div class="card-container">
+      <div class="card">
+        <img src="imgs/1.jpg" alt="Teclado full size">
+        <p>Propiedad de "Fortrek"</p>
+        <h3 class="keyboard-type">100% (Full Size)</h3>
+        <p>Incluye todas las teclas: función, flechas y el pad numérico. Ideal para oficina o tareas completas.</p>
+      </div>
+      <div class="card">
+        <img src="imgs/3fe95fde743c9c4340488bf25459db44.png" alt="Teclado TKL">
+        <p>Propiedad de "DDtech"</p>
+        <h3 class="keyboard-type">TKL (Tenkeyless)</h3>
+        <p>Elimina el pad numérico, haciéndolo más compacto. Muy popular entre gamers.</p>
+      </div>
+      <div class="card">
+        <img src="imgs/61EtsD0mfLL.jpg" alt="Teclado 75%">
+        <p>Propiedad de "DDtech"</p>
+        <h3 class="keyboard-type">75%</h3>
+        <p>Aún más compacto que un TKL, manteniendo flechas y algunas teclas de función. Perfecto para escritorios pequeños.</p>
+      </div>
+      <div class="card">
+        <img src="imgs/71uDEgnQpmL.jpg" alt="Teclado 60%">
+        <p>Propiedad de "Amazon"</p>
+        <h3 class="keyboard-type">60%</h3>
+        <p>Elimina las teclas de función y el pad numérico. Muy usado por entusiastas y jugadores que buscan portabilidad.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025
+  </footer>
+</body>
+</html>
